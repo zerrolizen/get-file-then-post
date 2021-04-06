@@ -1,6 +1,6 @@
 {
   "name": "get-file-then-post",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "get arraybuffer file data from specified url and post it to another url",
   "main": "index.js",
   "scripts": {
