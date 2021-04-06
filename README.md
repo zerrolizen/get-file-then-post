@@ -29,4 +29,4 @@ Required: true\
 \
 **fileName** *- naming with which the file gets postet*\
 Type: String\
-Default: 'file'\
+Default: 'file'
