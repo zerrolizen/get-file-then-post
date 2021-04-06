@@ -5,8 +5,8 @@ const FormData = require('form-data');
 
 async function getFileThenPost(options){
 
-    if (!options.getUrl) return console.log("The 'getUrl' option must be of type string. Received undefined")
-    if (!options.postUrl) return console.log("The 'postUrl' option must be of type string. Received undefined")
+    if (!options.getUrl) return new Error("The 'getUrl' option must be of type string. Received undefined. For usage view https://www.npmjs.com/package/get-file-then-post.")
+    if (!options.postUrl) return new Error("The 'postUrl' option must be of type string. Received undefined. For usage view https://www.npmjs.com/package/get-file-then-post.")
 
     await axiosInstance({
         url: options.getUrl, 
