@@ -7,7 +7,7 @@
 
 # Usage
 
-```
+```javascript
 const getFileThenPost = require('get-file-then-post');
 
 getFileThenPost({
