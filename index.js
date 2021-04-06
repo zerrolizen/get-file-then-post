@@ -2,7 +2,11 @@ const axios = require('axios')
 const axiosInstance = axios.create()
 const FormData = require('form-data');
 
+
 async function getFileThenPost(options){
+
+    if (!options.getUrl) return console.log("The 'getUrl' option must be of type string. Received undefined")
+    if (!options.postUrl) return console.log("The 'postUrl' option must be of type string. Received undefined")
 
     await axiosInstance({
         url: options.getUrl, 
@@ -19,5 +23,6 @@ async function getFileThenPost(options){
 
     }).catch((err) => {console.log(err)})
 }
+
 
 module.exports = getFileThenPost
