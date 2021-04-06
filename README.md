@@ -19,14 +19,14 @@ getFileThenPost({
 
 # Options
 
-**getUrl** *- url from which the file data gets requested*
-Type: String
-Required: true
-
-**postUrl** *- url to which the requested file data (type: arraybuffer) gets postet*
-Type: String
-Required: true
-
-**fileName** *- naming with which the file gets postet*
-Type: String
-Default: 'file'
+**getUrl** *- url from which the file data gets requested*\
+Type: String\
+Required: true\
+\
+**postUrl** *- url to which the requested file data (type: arraybuffer) gets postet*\
+Type: String\
+Required: true\
+\
+**fileName** *- naming with which the file gets postet*\
+Type: String\
+Default: 'file'\
